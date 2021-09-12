@@ -338,16 +338,129 @@
         <a href="#">Comprar</a>
         <a href="#">Proyectos</a>
     </div>
-    <div class="cajaLateral1_Abajo">
-        <h5>Ubicacion  Buscar en el listado <img src=""></h5>
+<!-- ///////// -->
+    <div class="cajaLateral1_Medio">
+        <p>Ubicacion  Buscar en el listado <img src=""></p>
         <input class="BuscarUbicacion" placeholder="Buscar Ubicacion">
-        <div>
+        
+        <div class="cajabotonvermapa">
             <button class="VerMapa">Ver mapa</button>
         </div>
         
-        <h5>Tipo de inmueble</h5>
+        <p>Tipo de inmueble</p>
+        <div class="cajatipodeinmueble">
+            <select class="listaopciondeinmueble">
+                <option selected disabled="">Seleccionar tipo de inmueble</option>
+                <option>Departamento</option>
+                <option>Casa</option>
+                <option>Terreno / Lote</option>
+                <option>Local comercial</option>
+                <option>Oficina comercial</option>
+                <option>Suite</option>
+                <option>Bodega-Galpon</option>
+                <option>Consultorio</option>
+                <option>Edificio-Hotel-Fabrica</option>
+                <option>Habitacion</option>
+                <option>Hacienda-Quinta</option>
+                <option>Parqueadero</option>
+                <option>Proyecto horizontal</option>
+                <option>Proyecto vertical</option>
+                <option>Quinta vacacional</option>
+            </select>
+        </div>
         
+        <p>Habitaciones</p>
+        <div class="cajaHabitaciones">
+            <select class="listaHabitacionesMin">
+                <option selected disabled="">Sin minimo</option>
+                <option>1 Habitacion</option>
+                <option>2 Habitaciones</option>
+                <option>3 Habitaciones</option>
+                <option>4 Habitaciones</option>
+                <option>5 Habitaciones</option>
+            </select>
+            <select class="listaHabitacionesMax">
+                <option selected disabled="">Sin maximo</option>
+                <option>1 Habitacion</option>
+                <option>2 Habitaciones</option>
+                <option>3 Habitaciones</option>
+                <option>4 Habitaciones</option>
+                <option>5 Habitaciones</option>
+            </select>
+        </div>
+
+        <p>Precio</p>
+        <div>        
+            <input type="number" placeholder="Desde"></opcion>
+            <input type="number" placeholder="Hasta"></opcion>   
+        </div>
     </div>
+<!-- ////////// -->
+    <div class="cajaLateral1_Abajo">
+        <p>Otras Operaciones</p>
+        <div class="cajaotrasOperaciones">        
+            <input type="radio" name="otraOperacion"> Temporal / Vacacional<br>
+            <input type="radio" name="otraOperacion"> Transpaso <br>
+        </div>
+
+        <p>Superficie</p>
+        <div class="cajaSuperficie">
+            <div class="opcionesdeCubierta">
+            <input type="radio" name="cubiertaTotal"> Cubierta
+            <input type="radio" name="cubiertaTotal"> Total
+            </div>
+
+            <div class="opcionesdeMedida">
+                <select class="medidaCubierta">
+                    <option>m^2</option>
+                    <option>HA</option>
+                </select>
+                <input type="number" placeholder="Desde"></opcion>
+                <input type="number" placeholder="Hasta"></opcion>
+            </div>
+        </div>
+
+        <p>Baños</p>
+        <div class="opcionesdeBanios">
+            <button class="Banio">1+</button>
+            <button class="Banio">2+</button>
+            <button class="Banio">3+</button>
+            <button class="Banio">4+</button>
+            <button class="Banio">5+</button>
+        </div>
+
+        <p>Estacionamientos</p>
+        <div class="opcionesdeEstacionamiento">
+            <button class="estacionamiento">Sin</button>
+            <button class="estacionamiento">1+</button>
+            <button class="estacionamiento">2+</button>
+            <button class="estacionamiento">3+</button>
+            <button class="estacionamiento">4+</button>
+        </div>
+
+        <p>Multimedia</p>
+        <div class="opcionesMultimedia">
+            <input type="radio" name="multimedia"> Recorrido 360<br>
+            <input type="radio" name="multimedia"> Video <br>
+            <input type="radio" name="multimedia"> Planos <br>
+        </div>
+
+        <p>Antigüedad</p>
+        <div>
+            <select class="opcionesdeAntiguedad">
+                <option selected disabled="">Seleccionar antigüedad</option>
+                <option>En construccion</option>
+                <option>A estrenar</option>
+                <option>Hasta 5 años</option>
+                <option>Hasta 10 años</option>
+                <option>Hasta 20 años</option>
+                <option>Hasta 50 años</option>
+                <option>Mas de 50 años</option>
+            </select>
+        </div>
+    </div>
+
+
 </div>
 
 </body>
