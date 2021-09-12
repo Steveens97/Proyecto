@@ -170,7 +170,6 @@ a, button, input, select, textarea {
     width: 100%;
     background-color: rgb(66, 101, 177) !important;
 }
-
 .color_facebook>img {
     margin-left: 8px;
 }
@@ -188,6 +187,9 @@ a, button, input, select, textarea {
 .color_apple{
     width: 100%;
     background-color: black !important; 
+}
+.color_apple>img{
+    margin-left: 8px;
 }
 
 .caja_fb_gg {
