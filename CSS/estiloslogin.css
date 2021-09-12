@@ -168,16 +168,11 @@ a, button, input, select, textarea {
 
 .color_facebook {
     width: 100%;
-    color: rgb(255, 255, 255);
     background-color: rgb(66, 101, 177) !important;
 }
 
 .color_facebook>img {
-    margin-left: 10px;
-}
-
-img {
-    border-style: none;
+    margin-left: 8px;
 }
 
 .color_google {
@@ -186,11 +181,13 @@ img {
     color: rgb(0, 0, 0);
     border: 1px solid rgb(203, 214, 220);
 }
+.color_google>img{
+    margin-left: 8px;
+}
 
 .color_apple{
     width: 100%;
-    background-color: black;
-    
+    background-color: black !important; 
 }
 
 .caja_fb_gg {
