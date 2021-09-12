@@ -119,8 +119,8 @@ a, button, input, select, textarea {
     font-weight: bold;
     cursor: pointer;
     box-sizing: border-box;
-    padding: 0px 12px;
     border-radius: 12px;
+    border-style: none;
     margin: auto;
     text-align: center;
     font-size: 16px;
@@ -190,8 +190,8 @@ img {
     font-weight: bold;
     cursor: pointer;
     box-sizing: border-box;
-    padding: 0px 12px;
     border-radius: 12px;
+    border-style: none;
     margin: auto;
     text-align: center;
     font-size: 16px;
@@ -221,13 +221,13 @@ img {
     font-weight: bold;
     cursor: pointer;
     box-sizing: border-box;
-    padding: 0px 12px;
     margin: auto;
     text-align: center;
     font-size: 14px;
     color: rgb(255, 85, 0);
     width: auto;
-    line-height: 25px;
+    background-color: white;
+    border-style: none;
 }
 
 .circulo {
