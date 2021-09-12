@@ -75,12 +75,23 @@ ul, ol {
     border-radius: 12px;
 }
 
+.publicarn{
+    margin-left: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    display: inline-block;
+    margin-left: 500px;
+}
+.publicarn a{
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
 .ingresarn{  
     margin: auto;
-    margin-top: 0px;
+    margin-left: 10px;
     border-radius: 10px;
     background: rgb(255, 89, 24);
-    margin-left: 500px;
     overflow: hidden;
     transition: 0.5s;
     display: inline-block;
@@ -90,12 +101,4 @@ ul, ol {
 }
 .ingresarn a{
     color: rgb(255, 255, 255);
-}
-
-.publicarn{
-    margin-left: 20px;
-}
-.publicarn a{
-    padding: 10px 20px;
-    color: rgb(0, 0, 0);
 }
