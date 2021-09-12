@@ -160,6 +160,10 @@ a, button, input, select, textarea {
     margin: 15px 0px;
 	color: black;
 }
+.apple{
+    margin: 15px 0px;
+    color: white;
+}
 
 
 .color_facebook {
@@ -178,9 +182,15 @@ img {
 
 .color_google {
     width: 100%;
-    background: rgb(255, 255, 255);
+    background: white;
     color: rgb(0, 0, 0);
     border: 1px solid rgb(203, 214, 220);
+}
+
+.color_apple{
+    width: 100%;
+    background-color: black;
+    
 }
 
 .caja_fb_gg {
