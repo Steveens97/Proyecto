@@ -148,7 +148,8 @@ ul, ol {
     border-radius: 0px 0px 12px 12px;
 }
 .cajaLateral1_Medio > p{
-    color: white;  
+    color: white;
+    font-weight: bold;
 }
 /* ... */
 .BuscarUbicacion{
@@ -208,3 +209,6 @@ ul, ol {
     width: 30%;
 }
 /* ///Parte de abajo/// */
+.cajaLateral1_Abajo > p{
+    font-weight: bold;
+}
