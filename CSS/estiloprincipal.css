@@ -140,11 +140,12 @@ ul, ol {
 .cajaLateral1_Arriba .botonesarriba:hover{
     color: rgb(255, 255, 255);
 }
-/* ///////// */
+/* /////Parte del medio con fondo morado//// */
 .cajaLateral1_Medio{
     background-color: #420c46;
     margin-top: -10x;
     padding: 5px 15px;
+    border-radius: 0px 0px 12px 12px;
 }
 .cajaLateral1_Medio > p{
     color: white;  
@@ -171,4 +172,38 @@ ul, ol {
 }
 .cajabotonvermapa .VerMapa:hover{
     background: rgb(255, 107, 33);
+}
+
+/* ... */
+.listaopciondeinmueble{
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* ... */
+.listaHabitacionesMin{
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 47%;
+}
+.listaHabitacionesMax{
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 47%;
+}
+
+/* ... */
+.opciondePrecio{
+    margin-bottom: 25px;
+}
+.precioDesde{
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 30%;
+}
+.precioHasta{
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 30%;
 }
