@@ -318,7 +318,7 @@ ul, ol {
     height: 30px;
 }
 .seleccionarDireccion .buscarDireccion1{
-    width: 70px;
+    width: 65px;
     height: 25px;
     border-radius: 12px;
     background: rgb(255, 255, 255);
@@ -338,6 +338,8 @@ ul, ol {
 .opcionesdeAnunciante > input{
     margin: 10px 10px;
 }
+
+
 /* /////todo contenedor/////// */
 #contenidoTodo{
     display: flex;
@@ -352,6 +354,7 @@ ul, ol {
 
 .contenedorDerecha >div> p{
     font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -524,9 +527,9 @@ ul, ol {
 #casa1 .informacion1 .informacionabajo1 #redes .contactar{
     display: inline-flex;
     font-weight:bolder;
-    line-height: 20px;
     color: #fff;
-    padding: 0 20px;
+    padding: 10px 20px;
+    height: 40px;
     border-radius: 12px;
     background-color: #f50;
     margin-left: 15px;
