@@ -87,13 +87,18 @@ ul, ol {
 }
 
 /* -----------------Fin de Cabecera----------------- */
+
 .cajaLateral1{
     margin-left: 20px;
     margin-top: 25px;
-    margin-right: 950px;
+    margin-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-decoration: none;
+    left: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 324px;
 }
 
 .cajaLateral1_Arriba{
@@ -332,4 +337,197 @@ ul, ol {
 }
 .opcionesdeAnunciante > input{
     margin: 10px 10px;
+}
+/* /////todo contenedor/////// */
+#contenidoTodo{
+    display: flex;
+    border-radius: 5px;
+}
+
+
+/* ////////contenedor de la derecha////////////// */
+.contenedorDerecha{
+    width: 930px;
+}
+
+.contenedorDerecha >div> p{
+    font-weight: bold;
+}
+
+
+/* ///// CASAS ///// */
+#casa1{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 12px;
+    width: 100%;
+    border: 1px rgb(219, 219, 219) solid;
+    box-sizing: border-box;
+
+}
+#casa1 .imagen1{
+    position:static;
+    height: 246px;
+}
+#casa1 .informacion1{
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+#casa1 .informacion1 .informacionarrbia1{
+    position: static;
+    padding-right: 120px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea1{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea1 .precio1{
+    min-width: 185px;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea1 .precio1 #valor{
+    font-weight: bold;
+    font-size: 20px;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea1 .ubicacion1{
+    position: static;
+    padding-left: 8px;
+    width: 100%;
+    /*  */
+    overflow: hidden;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea1 .ubicacion1 .ciudad{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+/*  */
+    line-height: 130%;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea1 .ubicacion1 .infociudad{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7c98a7;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea2{
+    margin-left: -2px;
+    flex-grow: 5;
+    align-items: center;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea2 #datosCasa{
+    display: flex;
+    line-height: 12px;
+    max-height: 20px;
+    margin: 3px 0;
+    overflow: hidden;
+    padding: 1.5px;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea2 #datosCasa >li{
+    display: flex;
+    color: black;
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea3{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea3>p{
+    display: inline-block;
+    width: 100%;
+    margin: 2px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+}
+#casa1 .informacion1 .informacionarrbia1 .infolinea4{
+    display: inline-block;
+    width: 100%;
+    margin: 2px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #7c98a7;
+}
+
+#casa1 .informacion1 .informacionabajo1{
+    padding-top: 15px;
+    width: 100%;
+    height: 57px;
+    min-height: 57px;
+    border-top: 1px rgba(124, 152 ,167);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content:left;
+}
+#casa1 .informacion1 .informacionabajo1 #logo{
+    display: flex!important;
+    gap: 15px;
+    position: static;
+    max-width: 50px;
+    max-height: 35px;
+    margin-right: 20px;
+}
+#casa1 .informacion1 .informacionabajo1 #redes{
+    display: flex;
+}
+#casa1 .informacion1 .informacionabajo1 #redes .favorito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 85, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px !important;
+}
+#casa1 .informacion1 .informacionabajo1 #redes .contactar{
+    display: inline-flex;
+    font-weight:bolder;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 12px;
+    background-color: #f50;
+    margin-left: 15px;
 }
