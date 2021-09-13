@@ -208,7 +208,7 @@ ul, ol {
     padding: 10px 20px;
     width: 30%;
 }
-/* ///Parte de abajo/// */
+/* ///Parte de abajo con fondo blanco/// */
 .cajaLateral1_Abajo > p{
     font-weight: bold;
 }
@@ -217,6 +217,8 @@ ul, ol {
     height: 70px;
     border: 1px rgb(219, 219, 219) solid;
     border-radius: 12px;
+    margin-bottom: 25px;
+
 }
 .cajaotrasOperaciones #otraOperacion1{
     margin: 10px 10px;
@@ -252,3 +254,52 @@ ul, ol {
     padding: 4px 2px;
     width: 110px;
 }
+
+/* ... */
+.opcionesdeBanios{
+    border-radius: 12px;
+    border: 1px rgb(219, 219, 219) solid;
+    margin-bottom: 35px;
+}
+.opcionesdeBanios .Banio{
+    border:none;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    width: 61px;
+    border-radius: 12px;
+}
+.opcionesdeBanios .Banio:hover{
+    background: #f50;
+    color: white;
+}
+
+/* ... */
+.opcionesdeEstacionamiento{
+    border-radius: 12px;
+    border: 1px rgb(219, 219, 219) solid;
+    margin-bottom: 35px;
+}
+.opcionesdeEstacionamiento .estacionamiento{
+    border:none;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    width: 61px;
+    border-radius: 12px;
+}
+.opcionesdeEstacionamiento .estacionamiento:hover{
+    background: #f50;
+    color: white;
+}
+
+/* ... */
+.opcionesMultimedia{
+    height: 70px;
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+.opcionesMultimedia > input{
+    margin: 5px 10px;
+}
+
+/* ... */
