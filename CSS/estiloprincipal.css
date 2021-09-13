@@ -74,9 +74,9 @@ ul, ol {
 
 .publicarn{
     margin-left: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    display: inline-block;
+    /* overflow: hidden; */
+    /* transition: 0.5s; */
+    /* display: inline-block; */
     margin-left: 500px;
 }
 .publicarn a{
@@ -85,15 +85,15 @@ ul, ol {
 }
 
 .ingresarn{  
-    margin: auto;
+    /* margin: auto; */
     margin-left: 20px;
     border-radius: 10px;
     background: rgb(255, 89, 24);
-    overflow: hidden;
-    transition: 0.5s;
+    /* overflow: hidden; */
+    transition: 0.3s;
     display: inline-block;
-    margin-top: 1px;
-    height: min-content;
+    /* margin-top: 1px; */
+    /* height: min-content; */
 }
 .ingresarn:hover{
     background-color: rgb(196, 37, 9);
@@ -215,7 +215,6 @@ ul, ol {
     border: 1px rgb(219, 219, 219) solid;
     border-radius: 12px;
     margin-bottom: 25px;
-
 }
 .cajaotrasOperaciones #otraOperacion1{
     margin: 10px 10px;
@@ -300,3 +299,59 @@ ul, ol {
 }
 
 /* ... */
+.opcionesdeAntiguedad{
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px  rgb(219, 219, 219) solid;
+    margin-bottom: 20px;
+}
+
+/* ... */
+.opcionCondominio{
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.opcionCondominio >input{
+    border-style: solid;
+    border-radius: 12px;
+    margin-left: 20px;
+    padding: 4px 2px;
+    width: 110px;
+}
+
+/* ... */
+.seleccionarDireccion{
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.seleccionarDireccion .buscarDirc > input{
+    border-radius: 12px;
+    width: 180px;
+    height: 30px;
+}
+.seleccionarDireccion .buscarDireccion1{
+    width: 50px;
+    height: 25px;
+    border-radius: 12px;
+    background: rgb(189, 187, 187);
+    border-color: rgb(189, 187, 187);
+}
+.seleccionarDireccion .buscarDireccion1:hover{
+    border-color: #f50;
+}
+
+/* ... */
+.opcionesdeAnunciante{
+    height: 70px;
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+.opcionesdeAnunciante > input{
+    margin: 10px 10px;
+}
