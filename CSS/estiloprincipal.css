@@ -212,3 +212,43 @@ ul, ol {
 .cajaLateral1_Abajo > p{
     font-weight: bold;
 }
+
+.cajaotrasOperaciones {
+    height: 70px;
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+}
+.cajaotrasOperaciones #otraOperacion1{
+    margin: 10px 10px;
+}
+
+/* ... */
+.cajaSuperficie{
+    height: 70px;
+    margin-bottom: 60px;
+
+}
+.opcionesdeCubierta{
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.opcionesdeCubierta > input{
+    margin-left: 45px;
+}
+.opcionesdeMedida{
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.medidaCubierta{
+    border-radius: 12px;
+    padding: 4px 5px;
+}
+.opcionesdeMedida > input{
+    border-style: solid;
+    border-radius: 12px;
+    padding: 4px 2px;
+    width: 110px;
+}
