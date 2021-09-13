@@ -356,7 +356,12 @@ ul, ol {
     font-weight: bold;
     font-size: 20px;
 }
-
+.contenedorDerecha >div> p > select{
+    border-radius: 8px;
+    margin-left: 17%;
+    padding: 10px 5px;
+    width: 150px;
+}
 
 /* ///// CASAS ///// */
 #casa1{
